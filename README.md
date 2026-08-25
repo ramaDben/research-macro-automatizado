@@ -1,14 +1,5 @@
 # Sistema de Research Macro Automatizado
 
-<p align="left">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="pandas">
-  <img src="https://img.shields.io/badge/Matplotlib-11557C?style=flat-square" alt="Matplotlib">
-  <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white" alt="Playwright">
-  <img src="https://img.shields.io/badge/MetaTrader%205-1E88E5?style=flat-square" alt="MetaTrader 5">
-  <img src="https://img.shields.io/badge/código-privado-64748B?style=flat-square" alt="Código privado">
-</p>
-
 > **Caso de estudio.** Este repositorio documenta la arquitectura y los resultados de un
 > sistema en producción. **No contiene el código fuente**: la implementación es privada.
 > Lo que encontrarás aquí es el problema que resuelve, cómo está construido y qué produce.
@@ -107,14 +98,14 @@ EMA 13 ± ATR(14). El mismo cálculo alimenta la tabla del informe y el gráfico
 Detección de swings fractales sobre la serie OHLC, con deduplicación por ATR para que dos
 niveles a distancia irrelevante no se reporten como si fueran distintos.
 
-<img src="docs/muestra_02_soportes_resistencias.png" alt="Oro con soportes y resistencias fractales" width="100%">
+<img src="docs/muestra_02_estructura_precio.png" alt="Oro con soportes y resistencias fractales" width="100%">
 
 ### Sesgo estructural — canal de regresión
 
 Regresión lineal sobre el cierre con bandas a dos desviaciones estándar, y posición
 relativa del precio dentro del canal.
 
-<img src="docs/muestra_03_canal_regresion.png" alt="S&P 500 con canal de regresión ±2σ" width="100%">
+<img src="docs/muestra_03_canal_regresion.png" alt="S&P 500 con canal de regresión a dos desviaciones estándar" width="100%">
 
 <sub>Muestras técnicas de un sistema de generación automatizada de informes. No
 constituyen recomendación de inversión.</sub>
@@ -142,6 +133,4 @@ mostrar el sistema funcionando en una llamada.
 
 **Benjamín Bravo Soza** — Ingeniero Financiero · Analista de Mercados · Acreditado CMV
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/benjaminbravosoza)
-[![GitHub](https://img.shields.io/badge/github.com/ramaDben-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ramaDben)
-[![Correo](https://img.shields.io/badge/benjamin.bravo@redieb.cl-334155?style=flat-square&logo=maildotru&logoColor=white)](mailto:benjamin.bravo@redieb.cl)
+[linkedin.com/in/benjaminbravosoza](https://linkedin.com/in/benjaminbravosoza) · [github.com/ramaDben](https://github.com/ramaDben) · [benjamin.bravo@redieb.cl](mailto:benjamin.bravo@redieb.cl)
