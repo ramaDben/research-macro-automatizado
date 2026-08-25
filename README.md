@@ -84,28 +84,28 @@ están calculadas, no redactadas.
 sesión, tendencia respecto de la EMA 100 y banda dinámica EMA 13 ± ATR(14). Si una serie
 no responde, el activo aparece marcado como no disponible en lugar de rellenarse.
 
-<img src="docs/muestra_00_informe.png" alt="Informe diario multiactivo generado automáticamente" width="100%">
+<img src="docs/informe_multiactivo.png" alt="Informe diario multiactivo generado automáticamente" width="100%">
 
 ### Motor técnico — niveles dinámicos
 
 Media rápida EMA 13, tendencia de fondo EMA 100 y niveles operativos calculados como
 EMA 13 ± ATR(14). El mismo cálculo alimenta la tabla del informe y el gráfico.
 
-<img src="docs/muestra_01_niveles_dinamicos.png" alt="EUR/USD con EMA 13, EMA 100 y bandas ATR" width="100%">
+<img src="docs/niveles_dinamicos.png" alt="EUR/USD con EMA 13, EMA 100 y bandas ATR" width="100%">
 
 ### Estructura de precio — soportes y resistencias automáticos
 
 Detección de swings fractales sobre la serie OHLC, con deduplicación por ATR para que dos
 niveles a distancia irrelevante no se reporten como si fueran distintos.
 
-<img src="docs/muestra_02_estructura_precio.png" alt="Oro con soportes y resistencias fractales" width="100%">
+<img src="docs/estructura_precio.png" alt="Oro con soportes y resistencias fractales" width="100%">
 
 ### Sesgo estructural — canal de regresión
 
 Regresión lineal sobre el cierre con bandas a dos desviaciones estándar, y posición
 relativa del precio dentro del canal.
 
-<img src="docs/muestra_03_canal_regresion.png" alt="S&P 500 con canal de regresión a dos desviaciones estándar" width="100%">
+<img src="docs/canal_regresion.png" alt="S&P 500 con canal de regresión a dos desviaciones estándar" width="100%">
 
 <sub>Muestras técnicas de un sistema de generación automatizada de informes. No
 constituyen recomendación de inversión.</sub>
